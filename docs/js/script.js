@@ -24,5 +24,3 @@ document.querySelector('.kanan').addEventListener('click', () => {
     let nextIndex = (currentActive + 1) % carouselItems.length;
     changeActive(nextIndex);
 });
-
-.
