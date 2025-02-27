@@ -1,7 +1,7 @@
 let carouselItems = document.querySelectorAll('.gambar-carousel');
 let currentActive = 0;
 
-// ngubah gambar
+// ngubah poto
 function changeActive(index) {
     carouselItems[currentActive].classList.remove('active');
     carouselItems[index].classList.add('active');
@@ -24,3 +24,5 @@ document.querySelector('.kanan').addEventListener('click', () => {
     let nextIndex = (currentActive + 1) % carouselItems.length;
     changeActive(nextIndex);
 });
+
+.
