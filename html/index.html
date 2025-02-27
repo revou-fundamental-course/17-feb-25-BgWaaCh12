@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Responsive</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">@Zura</a>
+        <nav class="navigasi">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#our">OurPackage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content" id="home">
+        <h3 class="judul1">Favorite Games</h3>
+        <div class="carousel-container">
+            <div class="carousel-border">
+                <div class="carousel">
+                    <div class="gambar-carousel active">
+                        <img src="/assets/Assets/apex.jpg" alt="Image 1" class="card1">
+                    </div>
+                    <div class="gambar-carousel">
+                        <img src="/assets/Assets/hi3.jpg" alt="Image 2">
+                    </div>
+                    <div class="gambar-carousel">
+                        <img src="/assets/Assets/wuwa.png" alt="Image 3">
+                    </div>
+                    <!-- Add more items as needed -->
+                </div>
+                <div class="carousel-nav">
+                    <button class="kiri"><</button>
+                    <button class="kanan">></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="card-list" id="our">
+        <div class="card">
+            <img src="/assets/Assets2/hi3.png" alt="Image 1">
+            <div class="card-content">
+                <h2>Honkai Impact3</h2>
+                <p>Honkai Impact3 adalah game free-to-play<br>
+                    yang di kembangkan Developer miHoYo<br>
+                    yang rilis tanggal 14 Oktober 2016.</p>
+                <button class="button-card"><a href="https://honkaiimpact3.hoyoverse.com/" target="_blank">Lihat lebih
+                        detail</a></button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/assets/Assets2/hsr.png" alt="Image 2">
+            <div class="card-content">
+                <h2>Honkai: Star Rail</h2>
+                <p>Honkai: Star Rail adalah Game Free-to-play<br>
+                    yang di kembangkan Developer miHoYo<br>
+                    yang rilis pada tanggal 26 April 2023.</p>
+                <button class="button-card"><a href="https://hsr.hoyoverse.com/en-us/" target="_blank">Lihat lebih
+                        detail</a></button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/assets/Assets2/AG.png" alt="Image 3">
+            <div class="card-content">
+                <h2>Aether Gazer</h2>
+                <p>Aether Gazer adalah Game RPG<br>
+                    yang di kembangkan oleh Yostar Games<br>
+                    yang rilis pada tanggal 23 Mei 2023.</p>
+                <button class="button-card"><a href="https://aethergazer.com/en/" target="_blank">Lihat lebih
+                        detail</a></button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/assets/Assets2/wuwa.png" alt="Image 4">
+            <div class="card-content">
+                <h2>Wuthering Waves</h2>
+                <p>Wuthering Waves adalah Game bermain peran aksi<br>
+                    yang di kembangkan oleh Developer Kuro Games<br>
+                    permainan ini di rilis pada 22 Mei 2024.</p>
+                <button class="button-card"><a href="">Lihat lebih detail</a></button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/assets/Assets2/apex.png" alt="Image 5">
+            <div class="card-content">
+                <h2>Apex Legends</h2>
+                <p>Apex Legends adalah game Battle royale free-to-play<br>
+                    yang di kembangkan oleh Developer Respawn Entertaiment<br>
+                    dan di terbitkan oleh Electronic Arts pada tanggal 4 Febuary 2019.</p>
+                <button class="button-card"><a href="https://www.ea.com/games/apex-legends/apex-legends"
+                        target="_blank">Lihat lebih detail</a></button>
+            </div>
+        </div>
+        <form>
+            <div class="contact-container">
+                <div class="contact-border">
+                    <h2>Hubungi Kami</h2>
+                    <form id="contact-form">
+                        <label>Nama:</label>
+                        <input type="text" name="nama" id="contact" required placeholder="Masukkann Nama">
+                        <label>Email:</label>
+                        <input type="email" name="email" id="email" required placeholder="Pilih Email">
+                        <label>Pesan:</label>
+                        <textarea name="pesan" id="pesan" required placeholder="Beri masukan"></textarea>
+                        <button id="submit-btn">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </form>
+        <script src="/js/script.js"></script>
+</body>
+
+</html>
